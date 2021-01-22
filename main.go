@@ -134,7 +134,7 @@ func parseConfig() (*Config, error) {
 
 func CreateExecutionPlan(cfg *Config) ([]string, error) {
 	args := []string{
-		"--quiet",
+//		"--quiet",
 		"beta",
 		"run",
 	}
